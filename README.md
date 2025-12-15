@@ -173,7 +173,7 @@ las_clean <- remove_noise_sor(
 
 # Inspect the filtered point cloud
 plot(las_clean, color = "Z", pal = height.colors(30), bg = "white")
-
+```
 
 ## 4. Train a new model on your own labelled LAS data
 
